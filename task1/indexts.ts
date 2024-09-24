@@ -20,7 +20,8 @@ let users = [
     { name: "Malik", age: 30, isAdmin: true },
     { name: "Hadeel", age: 27, isAdmin: true },
     { name: "Duha", age: 28, isAdmin: false },
-    { name: "Hosam", age: 24, isAdmin: true }
+    { name: "Hosam", age: 24, isAdmin: true },
+    { name: "Raneem", age: 24, isAdmin: true }
 ];
 
 let oldestAdmin = { name: "", age: 0, isAdmin: false };

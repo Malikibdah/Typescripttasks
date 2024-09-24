@@ -22,15 +22,13 @@ var users = [
     { name: "Malik", age: 30, isAdmin: true },
     { name: "Hadeel", age: 27, isAdmin: true },
     { name: "Duha", age: 28, isAdmin: false },
-    { name: "Hosam", age: 24, isAdmin: true }
+    { name: "Hosam", age: 24, isAdmin: true },
+    { name: "Raneem", age: 24, isAdmin: true }
 ];
-// البداية بقيم افتراضية
 var oldestAdmin = { name: "", age: 0, isAdmin: false };
-// التحقق من كل عنصر في المصفوفة
 for (var i = 0; i < users.length; i++) {
     if (users[i].isAdmin && users[i].age > oldestAdmin.age) {
         oldestAdmin = users[i];
     }
 }
-// طباعة اسم أكبر مشرف
 console.log(oldestAdmin.name);
